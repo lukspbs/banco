@@ -1,4 +1,4 @@
-# 📊 Banco Digital Simulado  
+# 📊 Banco Digital
 
 **Um projeto Python em desenvolvimento para estudos**  
 
