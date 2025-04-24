@@ -10,13 +10,14 @@
 
 ---
 
-## 🚀 Sobre o Projeto  
-Um sistema bancário simulado em Python para praticar:  
-- ✅ Lógica de programação  
-- ✅ Manipulação de dados  
-- ✅ Boas práticas de desenvolvimento  
-- 🚧 Padrões de arquitetura de software  
+## 🛠️ Funcionalidades Principais
 
+- 🏦 Cadastro de usuários com validação de email e senha segura
+- 🔐 Login seguro com hash e salt
+- 💰 Depósito em conta
+- 🔄 Transferência entre contas
+- 📊 Visualização de extrato bancário
+- 👤 Gerenciamento de conta (exclusão)
 ---
 
 ## ⚙️ Funcionalidades  
@@ -25,8 +26,8 @@ Um sistema bancário simulado em Python para praticar:
 |------------------------------|----------------|  
 | Cadastro de clientes         | ✅ Implementado |  
 | Depósitos/saques            | ✅ Implementado |  
-| Transferências              | 🚧 Em progresso |  
-| Extrato detalhado           | 🚧 Em progresso |  
+| Transferências              | ✅ Implementado |  
+| Extrato detalhado           | ✅ Implementado  |  
 | API REST                    | 📅 Planejado   |  
 
 ---
@@ -43,3 +44,20 @@ Um sistema bancário simulado em Python para praticar:
 # Bibliotecas
 - tabulate (para exibição de dados)
 - pytest (testes unitários)
+```
+## 💻 Como Executar
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/lukspbs/banco.git
+cd banco
+```
+2. Execute o programa
+ ```bash
+python banco.py
+ou
+python3 banco.py
+```
+
+## 📄 Licença
+Academic License - veja [LICENSE](https://github.com/lukspbs/banco?tab=License-1-ov-file) para detalhes.
